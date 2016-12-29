@@ -7,7 +7,6 @@
 # OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 #
-# Written by Kyle Bareis
 # This script is designed to take a csv of first name and last name pairs and create iPad
 # records within the JSS. Please modify variables below and run the script.
 #
@@ -18,15 +17,15 @@
 # Variables
 
 # JSS URL, example https://jss.company.com:8443/
-jssURL="https://willmore.jamfcloud.com/"
+jssURL="https://jss.jamfcloud.com/"
 # User Name for API account
-apiUser="willmore"
+apiUser="USS Username"
 # Password for API account
-apiPass="Woodland2"
+apiPass="password"
 # Model Name
 model="Apple TV"
 # Model Identifier
-modelIdentifier="AppleTV3,2"
+modelIdentifier="AppleTV4,1"
 
 # Don't change anything below this point unless you know what you are doing
 
