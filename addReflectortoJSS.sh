@@ -7,7 +7,6 @@
 # OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 #
-# Written by Kyle Bareis
 # This script is designed to upload info about Reflector running on a computer into the JSS
 
 # Tested with Reflector 2.0.1 and 1.6.6
@@ -17,19 +16,19 @@
 
 # Variables for CURL commands
 	# JSS URL, example https://jss.company.com:8443
-		JSS_URL="https://willmore.jamfcloud.com"
+		JSS_URL="https://jss.jamfcloud.com"
 		if [[ -z $JSS_URL ]]; then
 			JSS_URL="$4"
 		fi
 
 	# User Name for API account
-		API_USERNAME="willmore"
+		API_USERNAME="username"
 		if [[ -z $API_USERNAME ]]; then
 			API_USERNAME="$5"
 		fi
 
 	# Password for API account
-		API_PASSWORD="Woodland2"
+		API_PASSWORD="password"
 		if [[ -z $API_PASSWORD ]]; then
 			API_PASSWORD="$6"
 		fi
